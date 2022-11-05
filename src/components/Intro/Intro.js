@@ -17,11 +17,11 @@ const Intro = () => {
               <div className="left-container">
                 
               <div id="carouselExampleSlidesOnly" class="carousel slide sliding" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <h1>CREATE</h1>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <h1>PUBLISH </h1>
             </div>
             <div class="carousel-item grow">
