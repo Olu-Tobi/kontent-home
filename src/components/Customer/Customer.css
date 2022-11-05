@@ -101,7 +101,9 @@
     border: 1px solid #ff00d2;
 }
 
-
+.uni-btn{
+    font-weight: 500;
+}
 .uni-btn:hover{
         background: transparent;
         color: black !important;

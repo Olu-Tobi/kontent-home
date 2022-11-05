@@ -96,6 +96,7 @@
  }
 .content-text >h3{
     font-size: 1rem;
+    font-weight: 500;
 }
 
 .inner-content{
@@ -127,10 +128,10 @@
     flex-direction: column-reverse;
    }
    .content-text >h3{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 .about-btn{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .content-dev{

@@ -142,7 +142,12 @@ a{
     .right-container{
         padding-left: 1.5rem;
     }
-  
+
+    .big-btn{
+       
+        width: 47%;
+      
+    }
     
 }
 
@@ -166,7 +171,7 @@ a{
 
     .big-btn{
 
-        width: 40%;
+        width: 45%;
     }
     
     .right-container{

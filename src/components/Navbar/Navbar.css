@@ -3,7 +3,7 @@
 .navbar{
     display: flex;
     align-items: center;
-    padding: 0.2rem 2rem;
+    padding: 0.5rem 1.5rem;
     background-color:#fff ;
     width: 100%;
     font-family: 'Lato';
