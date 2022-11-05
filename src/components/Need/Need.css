@@ -1,0 +1,380 @@
+.need-max{
+    box-shadow: 0 0 10px 0 grey;
+    position: relative;
+    overflow: hidden;
+}
+
+.need-max > img {
+    position: absolute;
+    opacity: 0.2;
+}
+.vector-place{
+    transform: rotate(-90deg);
+    top: 14%;
+    left: 70%;
+}
+.need-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+
+
+.need-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.need-style{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    width: 40%;
+    box-shadow: 0 0 10px 0 grey;
+}
+
+.need-style > p{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+.need-icon{
+    font-size: 3rem !important;
+}
+.need-style1{
+    border: 1px solid #ff00d2;
+    margin-bottom: 1.5rem;
+
+   
+}
+
+.need-style2{
+    border: 1px solid #ffa500;
+    margin-bottom: 1.5rem;
+    
+}
+
+.need-style3{
+    border: 1px solid #000;
+    margin: 0 auto;
+   
+}
+.need-btn{
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 24%;
+    margin: auto;
+    padding: 0.6rem;
+    border-radius: 10px;
+    background: #ffa500;
+    background: linear-gradient(153deg, rgba(255,165,0,1) 0%, #ff5467 50%, rgba(255,0,210,1) 100%);
+    box-shadow: 0 5px 7px 0 grey;
+    text-align: center;
+    color: #000;
+}
+.need-btn:hover{
+    background: linear-gradient(153deg, rgba(255, 166, 0, 0.425) 0%, #ff54685d 50%, rgba(255, 0, 208, 0.304) 100%);
+    transition: var(--transition);
+    color: #000;
+}
+
+.cant-max{
+    padding: 4rem 0 1rem;
+}
+
+.cant-edit{
+    display: flex;
+    padding: 2.5rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+.cant-edit > p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    
+}
+.cant-container1{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: rgb(255,0,210);
+    background: linear-gradient(90deg, rgba(255,0,210,1) 0%, rgba(255,255,255,1) 100%);
+    
+}
+
+.cant-container2{
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(240,224,194,1) 62%, rgba(92,64,12,1) 100%);
+
+}
+.cant-container3{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #ffa500;
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+
+.cant-btn{
+    background: #000;
+    color: white;
+    width: 16%;
+    padding: 0.4rem;
+    box-shadow: 0 0 30px 0 grey;
+    text-align: center;
+}
+
+.cant-btn:hover{
+    color: white;
+}
+.max-one{
+    padding: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 4px 5px 7px 0 grey;
+    margin: 4rem 0;
+    border-radius: 7px;
+    border: 1px solid #ffa500;
+}
+.max-one > img{
+    width: 18%;
+    border-right: 1px solid #ffa500;
+    border-bottom: 1px solid #ffa500;
+    box-shadow: 1px 2px 2px 0 grey;
+}
+.max-one > p{
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+
+.max2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.max2>img{
+    width: 18%;
+    margin-bottom: 1.5rem;
+}
+
+.q-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.q-text{
+    display: flex;
+    align-items: center;
+    background: #ff00d2;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: 0 0 12px 0 grey;
+    margin-bottom: 1rem;
+}
+
+.q-text > p{
+ margin-left: 1rem;
+ margin-bottom: 0;
+}
+
+.q-text:hover{
+    transform: scale(1.03);
+    transition: var(--transition);
+}
+.q-cta{
+    background: #ffa500;
+    background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.q-cta > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    width: 33%;
+    padding: 0.7rem;
+    box-shadow: 0 5px 7px 0 grey;
+    border-radius: 7px;
+    color: #fff;
+}
+
+.q-cta > a:hover{
+    background: transparent;
+    transition: var(--transition);
+    color: #000;
+}
+
+.q-text2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.q-text3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.div-icon{
+    margin: 0 auto 1rem;
+    font-size: 4rem !important;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .need-style{
+        
+        padding: 1.5rem;
+        width: 42%;
+        
+    }
+
+    .need-btn{
+        font-size: 1rem;
+        width:35%;
+       
+    }
+
+    .cant-btn{
+       
+        width: 23%;
+        
+    }
+    .vector-place{
+       
+        top: 12%;
+        left: 60%;
+        
+    }
+
+    .max-one{
+       
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .max-one > img{
+        width: 25%; 
+
+    }
+    .max-one > p{
+        font-size: 1rem;
+        margin: 1.5rem;
+        text-align: center;
+    }
+
+    .q-cta > a{
+        
+        width: 60%;
+       
+    }
+    .q-text{
+
+        align-items:flex-start;
+        
+    }
+    .q-icon{
+        margin-top: 0.2rem;
+    }
+    
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+  
+
+    .need-heading{
+        font-weight:600;
+    }
+    .need-style{
+        margin: 1rem auto;
+        padding: 2rem;
+        width: 90%;
+        
+    }
+
+    .need-style > p{
+        font-size: 0.8rem;
+    }
+
+    .need-icon{
+        font-size: 2rem !important;
+    }
+
+    .need-btn{
+        
+        width:60%;
+       
+    }
+
+    .cant-btn{
+       
+        width: 45%;
+        margin: 0 auto;
+        font-size: 0.8rem;
+        
+    }
+    .cant-edit > p{
+        font-size: 1rem;
+     
+        
+    }
+
+    .max-one > img{
+        width: 70%; 
+
+    }
+
+   
+
+    .q-text > p{
+        text-align: left;
+        font-size: 0.8rem;
+       }
+
+       .q-text2{
+        font-size: 0.8rem;
+    }
+
+    .q-text3{
+        font-size: 00.8rem;
+    }
+
+    .q-icon{
+        font-size: 1rem !important;
+    }
+    .q-cta > a{
+       
+       width: 100%;
+        padding: 0.3rem;
+        font-size: 0.7rem;
+      
+        
+    }
+
+   
+
+}

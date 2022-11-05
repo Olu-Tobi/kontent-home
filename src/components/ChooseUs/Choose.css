@@ -1,0 +1,95 @@
+.choose-max{
+    padding: 4rem 0;
+}
+
+
+.card-edit{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+
+    margin: 2rem 0;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 3px 0 grey;
+    background: #fafafb41;
+  
+}
+
+.card-edit > img {
+    position: absolute;
+    top: 5%;
+    width: 50%;
+    margin-left: 23%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.card-edit > h3{
+    font-size: 1.3rem;
+}
+
+
+
+.card-div{
+    display: flex;
+}
+
+.card-div > p{
+    text-align: left;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.card-icon{
+    font-size: 0.9rem !important;
+     margin: 0.4rem 0 0 !important;
+}
+.ver-edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.verdict{
+    display: flex;
+    justify-content: center;
+    background: rgb(255,0,210);
+    background: linear-gradient(90deg, rgba(255,0,210,1) 0%, rgb(255, 255, 255) 100%);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 0 grey;
+   
+}
+
+.verdict > img {
+    position: absolute;
+    width: 25%;
+    opacity: 0.5;
+    z-index: -1;
+    
+}
+
+.verdict > p{
+   
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    .card-edit > img {
+    
+        width: 80%;
+        height: 100%;
+        margin-left: 0;
+      
+    }
+
+    .verdict > p{
+   
+        font-size: 0.8rem;
+        font-weight: 500;
+     }
+
+}

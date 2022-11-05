@@ -1,0 +1,76 @@
+.newsletter-max{
+    position: relative;
+    box-shadow: 0 0 10px 0 grey;
+}
+.newsletter-max > img{
+    position: absolute;
+    width:25%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.pen2{
+    transform: rotate(-180deg);
+    right: 0;
+    top: 20%;
+}
+
+.newsletter-con{
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter-con > p{
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.MailchimpStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.MailchimpStyle p {
+    text-align: center;
+}
+
+.MailchimpStyle input{
+    border: 2px solid #ff00d2;
+    padding: 0.1rem 0.4rem;
+}
+.MailchimpStyle button {
+    clear: left;
+    padding: 0.3rem 1rem; 
+    background: #ffa500;
+    border:1px solid #ffa500;
+    box-shadow: 0 0 5px 0 grey;
+  }
+
+  .MailchimpStyle button:hover {
+    background: transparent;
+    transition: var(--transition);
+  }
+
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .newsletter-con > p{
+        font-size: 0.8rem;
+    }
+
+    .newsletter-max > img{
+        width:70%;
+        
+    }
+
+    
+}

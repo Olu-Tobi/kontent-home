@@ -1,0 +1,51 @@
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    background: var(--color-primary);
+    
+}
+
+.cta-btn{
+
+    margin-top: 3%;
+    width: 24%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 5px 7px 0 rgb(46, 45, 45);
+    color: white !important;
+    text-align: center;
+}
+
+.cta-btn:hover{
+    background: transparent;
+    color: black !important;
+    transition: var(--transition);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .cta-btn{
+        width: 40%;
+    }
+}
+
+/* ==== SMALL DEVICES ==== */
+@media screen and (max-width: 600px) {
+    .cta-btn{
+        width: 70%;
+        padding: 7px;
+    }
+
+    .cta-btn>a{
+        color: white;
+        font-size:0.7rem;
+    }
+    .cta-container > h2{
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,151 @@
+
+.about-container{
+    box-shadow: 0 0 10px 0 grey;
+    padding: 2% 0;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-btn{
+    border: none;
+    background: transparent;
+    color: var(--color-primary);
+    font-size: 1rem;
+    
+    
+}
+
+.about-ptext{
+    text-align: justify;
+}
+
+.left-about{
+    flex: 3;
+}
+
+.right-about{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.right-about >img{
+    width:100%;
+    z-index: -1;
+}
+
+.line{
+   
+    height: 1px;
+    background-color:var(--color-primary) ;
+    width: 93%;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.container-content{
+    padding-top: 4%;
+}
+
+
+.content-dev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.publish-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+ .content-img > img{
+    width: 25%;
+ }
+
+ .publish-img > img{
+    width: 33%;
+ }
+.content-text >h3{
+    font-size: 1rem;
+}
+
+.inner-content{
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+ .about-btn{
+    margin-bottom: 1rem;
+ }
+
+ .left-about > h2{
+     margin-top: 2rem;
+ }
+ .content-text >h3{
+    font-size: 0.9rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+   
+   .left-about > h2{
+    font-weight:600;
+    margin-top: 0;
+   }
+   .content-container{
+    flex-direction: column-reverse;
+   }
+   .content-text >h3{
+    font-size: 0.7rem;
+}
+.about-btn{
+    font-size: 0.7rem;
+}
+
+.content-dev{
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.content{
+    margin-bottom: 2rem;
+}
+.container-content >h2{
+    font-weight: 600;
+}
+
+.inner-content > p{
+    text-align: left;
+}
+}

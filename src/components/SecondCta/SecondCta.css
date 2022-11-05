@@ -1,0 +1,78 @@
+.second-cta{
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 1rem;
+}
+
+.second-cta > h2{
+    font-size: 1.5rem;
+   margin-top: 00.5rem;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.cta2{
+    background: black;
+    border-radius: 10px;
+    box-shadow: 0 5px 7px 0 rgb(46, 46, 46);
+    padding: 0.5rem 1rem;
+    color: white !important;
+    text-align: center;
+}
+
+.cta2:hover{
+    background: transparent;
+    color: black !important;
+}
+
+.cta2-edit{
+   
+    position: relative;
+    animation: mymove 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100%{opacity: 0;}
+  }
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .second-cta > h2{
+        font-size: 1.7rem;
+       
+    }
+
+    .cta2{
+       
+        padding: 0.3rem 0.7rem;
+    }
+
+    .cta2 > a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.7rem;
+    }
+}
+
+/* ==== SMALL DEVICES ==== */
+@media screen and (max-width: 600px) {
+    
+    .second-cta{
+        padding: 3rem 1rem;
+    }
+    
+    .second-cta > h2{
+        font-size: 1.2rem;
+       
+    }
+}

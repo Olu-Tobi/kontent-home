@@ -1,0 +1,198 @@
+.intro-container{
+    padding: 0 0 3%;
+    position: relative;
+    padding-bottom: 3%;
+    box-shadow: 0 0 10px 0 grey;
+    overflow: hidden;
+   
+    
+}
+
+
+.edit-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.left-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.left-container > .sliding{
+    width: 33%;
+    background: transparent;
+    padding-bottom: 2%;
+}
+.left-container > h1{
+    color: black;
+}
+
+
+.left-container > h2{
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: rgb(58, 57, 57);
+}
+
+.left-container > h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.left-container > p{
+    font-size: 1rem;
+    color: rgba(85, 84, 84, 0.914);
+}
+.big-btn{
+    margin-top: 5%;
+    width: 35%;
+    padding: 2% 1%;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 5px 7px 0 rgb(46, 45, 45);
+    color: white !important;
+    text-align: center
+}
+.big-btn:hover{
+    background: transparent;
+    color: black !important;
+    transition: var(--transition);
+}
+
+.right-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 1%;
+}
+.right-container >img{
+   
+    width:100%;
+
+}
+
+.ellipse{
+    position: absolute;
+    transform: scale(0.15);
+   
+    opacity: 0.4;
+   
+}
+
+.ellipse1{
+    bottom: -60%;
+    left: -10%;
+}
+.ellipse2{
+    top: -55%;
+    right: -30%;
+}
+
+
+
+.vector{
+    position: absolute;
+    top:10%;
+    
+    opacity: 0.2;
+    width: 35%;
+
+}
+
+.vector2{
+    position: absolute;
+    top:26.5%;
+    left: 7%;
+    z-index: -1;
+    opacity: 0.2;
+    width: 25%;
+
+    
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    
+    .left-container>h3{
+        font-size: 1rem;
+    }
+    .left-container>h2{
+        font-size: 0.9rem;
+    }
+    .left-container>p{
+        font-size: 0.7rem;
+    }
+    .big-btn>a{
+        font-size: 0.7rem;
+    }
+    .right-container{
+        padding-left: 1.5rem;
+    }
+  
+    
+}
+
+@media screen and (max-width: 600px) {
+    .intro-container{
+        padding-bottom: 10%;
+        
+        
+    }
+    .edit-container{
+        flex-direction: column-reverse;
+        
+        
+    }
+    .left-container{
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        position: relative;
+    }
+
+    .big-btn{
+
+        width: 40%;
+    }
+    
+    .right-container{
+       
+        margin-left: 0;
+    }
+    .vector{
+        
+        top:55%;
+        
+        width: 80%;
+    
+    }
+    
+    .vector2{
+        
+        top:40%;
+        left:66.5%;
+        transform: rotate(-90deg);
+        
+        width: 63%;
+    
+        
+    }
+
+    
+   
+}
+
