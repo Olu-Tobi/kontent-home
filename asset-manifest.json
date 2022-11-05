@@ -1,10 +1,32 @@
 {
   "files": {
-    "main.js": "/kontent-home/static/js/main.659751e0.js",
+    "main.css": "/kontent-home/static/css/main.7e5373d9.css",
+    "main.js": "/kontent-home/static/js/main.306263d9.js",
+    "static/media/kontent2.png": "/kontent-home/static/media/kontent2.3d65a1528e257a6494f2.png",
+    "static/media/Humaaans.png": "/kontent-home/static/media/Humaaans.d97c08eac1dc7746da61.png",
+    "static/media/Colored.png": "/kontent-home/static/media/Colored.ae63ebc4e8942f16b86c.png",
+    "static/media/Black.png": "/kontent-home/static/media/Black.b70a43c4041991a130f0.png",
+    "static/media/team.svg": "/kontent-home/static/media/team.16d22c842fad2879eab9c3c69a8d08bd.svg",
+    "static/media/busycon.svg": "/kontent-home/static/media/busycon.a69a2ab95f0e38a9518da377e1b3258e.svg",
+    "static/media/content.svg": "/kontent-home/static/media/content.1117c4906f07eab2f802d1f18f62c734.svg",
+    "static/media/busypro.svg": "/kontent-home/static/media/busypro.648ade7da7bb8725b5816569907cfb33.svg",
+    "static/media/obsess.svg": "/kontent-home/static/media/obsess.7110f5c5d02626e22c77a392b48602b0.svg",
+    "static/media/pen2.png": "/kontent-home/static/media/pen2.5e6d2675f01a5ed2f149.png",
+    "static/media/pen1.png": "/kontent-home/static/media/pen1.03e4eaef8c8f69baccdb.png",
+    "static/media/republish.svg": "/kontent-home/static/media/republish.5de134c1d1b26659c6bdaf6fd51af725.svg",
+    "static/media/money.svg": "/kontent-home/static/media/money.bcd953f7fd32be013454ac1fedd77205.svg",
+    "static/media/Vector6.png": "/kontent-home/static/media/Vector6.806e6569ce3348599de3.png",
+    "static/media/busypub.svg": "/kontent-home/static/media/busypub.684ce4521da0db66df0e735f3e432c8f.svg",
+    "static/media/publish.svg": "/kontent-home/static/media/publish.2c37b0f97e23dee82f09bf13e93caadc.svg",
+    "static/media/fund.svg": "/kontent-home/static/media/fund.bb23443945ec01cac41fd7b333ae8401.svg",
+    "static/media/Vector4.png": "/kontent-home/static/media/Vector4.0fb5d58fe2242745626f.png",
+    "static/media/prof.svg": "/kontent-home/static/media/prof.ebf9360b55d173d94a86d980e39e227e.svg",
     "index.html": "/kontent-home/index.html",
-    "main.659751e0.js.map": "/kontent-home/static/js/main.659751e0.js.map"
+    "main.7e5373d9.css.map": "/kontent-home/static/css/main.7e5373d9.css.map",
+    "main.306263d9.js.map": "/kontent-home/static/js/main.306263d9.js.map"
   },
   "entrypoints": [
-    "static/js/main.659751e0.js"
+    "static/css/main.7e5373d9.css",
+    "static/js/main.306263d9.js"
   ]
 }
