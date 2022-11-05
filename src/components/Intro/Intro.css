@@ -35,10 +35,20 @@ a{
     background: transparent;
     padding-bottom: 2%;
 }
-.left-container > h1{
-    color: black;
+.item-car{
+    color: black !important;
 }
 
+.carousel-indicators{
+    display: none;
+}
+.carousel-control-prev-icon{
+    display: none;
+}
+
+.carousel-control-next-icon{
+    display: none;
+}
 
 .left-container > h2{
     font-size: 1.3rem;
