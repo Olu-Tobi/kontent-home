@@ -16,7 +16,7 @@ const Intro = () => {
             <div className="container edit-container">
               <div className="left-container">
                 
-              <div id="carouselExampleSlidesOnly" class="carousel slide sliding" data-bs-ride="carousel">
+              <div id="carouselExampleSlidesOnly" className="carousel slide sliding" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
               <h1>CREATE</h1>
@@ -24,7 +24,7 @@ const Intro = () => {
             <div className="carousel-item">
               <h1>PUBLISH </h1>
             </div>
-            <div class="carousel-item grow">
+            <div className="carousel-item grow">
               <h1>GROW</h1>
             </div>
           </div>
